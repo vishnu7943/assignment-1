@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>
+          my profile info
+      </title> 
+
+    </head>
+
+    <body> 
+      <h2>My Bio</h2> 
+      <form action="#" method="POST">
+          <fieldset>
+           <legend>Personal Info</legend>
+            <lable>FirstName:</lable>
+            <input type="FirstName" id="FirstName" placeholder="FirstName" name="FirstName" required>
+            <label>last name: </label>
+            <input type="last name"id="last name"placeholder="lastname"name="last name"required>
+            <br>
+            <br>
+            <!-- gender -->
+            <label>male</label>
+            <input type="radio"name="gender"id="male">
+            <label>female</label>
+            <input type="radio"name="gender"id="female">
+            <label>others</label>
+            <input type="radio"name="gender"id="others">
+            <br>
+            <br>
+            <!-- date of birth -->
+            date of birth:
+            <input type="date">
+            <br>
+            <br>
+            <!-- email id -->
+            email id:
+            <input type="email id"placeholder="enter your email"id="height"required>
+            <br>
+            <br>
+            <!-- phone number -->
+            phone number:
+            <input type="phone number"placeholder="+91"id="height"required>
+            <br>
+            <br>
+            <!-- height -->
+            height:
+            <input type="height"placeholder="height in feet"id="height"required>
+          </fieldset>
+          <fieldset>
+             <legend>education</legend>
+             <label>schoolname:</label>
+             <input type="school name"id="school name"placeholder="School name"name="school name"required>
+             <br>
+             <br>
+             class:
+             <input type="class"id="class"placeholder="Class" required>
+             <br>
+             <br>
+             stream:
+             <select id="stream" name="stream" required>
+               <option value="stream" selected>stream</option>
+               <option value="MPC">MPC</option>
+               <option value="BIPC">BIPC</option>
+               <option value="CEC">CEC</option>
+              </select>
+    
+             <br>
+             <br>
+             marksheet:
+             <input type="file"id="file"placeholder="Choose file"name="File"required>
+            </fieldset><br> 
+          <input type="checkbox" id="checkbox" required> 
+          <lable>I Agree</lable> <br><br>
+          <input type="button" value="Submit">
+      </form>
+    </body>
+</html>
